@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#000000;
+
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width:45rem;
+    height:25rem;
+    background: #fff;
+    color:black;
+    border-radius:10px;
+    padding:25px;
+    overflow: auto;
+    
+}
+
+.main::-webkit-scrollbar{
+    
+}
+.container{
+   
+}
+.container input{
+    width:100%;
+    font-size: 25px;
+    padding:10px;
+    color:black;
+}
+li{
+    list-style: none;
+}
+.list-of-works{
+    margin-top:10px;
+    width:100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    background: aqua;
+    padding:10px;
+   
+    
+}
+
+.list-of-works i{
+    cursor :pointer;
+}
+
+.done{
+    background: green;
+    color:white;
+   
+}
+

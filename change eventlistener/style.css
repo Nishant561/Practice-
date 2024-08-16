@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    top:50%;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+p,label,#city{
+    font-size:25px;
+}
+#selector{
+    padding:10px;
+    font-size: 25px;
+    
+}
+

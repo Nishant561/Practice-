@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    width:30rem;
+    height:26rem;
+    background-color: #fff;
+    margin-top: 62px;
+    display: inline-block;
+    margin-right:10px;
+   
+    
+}
+.tool i{
+    padding:10px;
+    cursor: pointer;
+}
+.tool{
+    width:100%;
+    background: #000;
+    color:white;
+    font-size:25px;
+    display: flex;
+    justify-content: end;
+}
+
+.main{
+    margin:12px;
+}
+
+.container textarea{
+    width:100%;
+    height:100%;
+    border: none;
+    resize: none;
+    padding:10px;
+}
+
+.container textarea:focus{
+    outline: none;
+}
+
+#add-btn{
+    position:fixed;
+    right:10px;
+    top:5px;
+}
+
+ button{
+    font-size:25px;
+    background: #000;
+    color: #fff;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    color:black;
+    background-color: #fff;
+}

@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    background-color: aqua;
+    color:#fff;
+    width:45rem;
+}
+
+#btn{
+    display: none;
+}
